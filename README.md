@@ -1,14 +1,18 @@
 # Decode-message-Genetic-Algorithm
-Genetic algorithm using pygad library for decoding a message
+Genetic algorithm using pygad library for decoding a message.
 
 # Instructions
-Run virtualenv -p python env
-
 ## Activate env
+```bash
+pip install virtualenv
+virtualenv -p python env
 source env/bin/activate
-
+```
 ## Install dependencies
+```bash
 pip install -r requirements.txt
-
-## Create requirements file
-pip freeze > requirements.txt
+```
+## Run app
+```bash
+python3 decode_message.py
+```
